@@ -1,28 +1,47 @@
-<style>
+style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-#carts {  
-  width: 100%;  
-  padding: 10px;  
-  margin-bottom: 10px;  
-  border: 1px solid #ccc;  
-  resize: vertical;  
-}  
+h1 {
+    text-align: center;
+}
+
+.jersey-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.jersey {
+    text-align: center;
+}
+
+.jersey img {
+    width: 150px;
+    height: auto;
+}
+
+.order-summary {
+    text-align: center;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
   
-#carts, #total, #cash, #change {  
-  font-size: 12px;  
-}  
-  
-#carts, #total, #cash {  
-  padding: 10px;  
-  margin-bottom: 10px;  
-  border: 1px solid #ccc;  
-}  
-  
-#total, #change {  
-  background-color: #f0f0f0;  
-  border: none;  
-  padding: 10px;  
-  font-weight: bold;  
-  color: #00698f;  
-</style>
+  </style>
